@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Static Template</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="p-contact-item">
+    <dt class="p-contact-item__title">
+      <label for="name">お名前</label>
+    </dt>
+    <dd class="p-contact-item__input">
+      <input type="text" name="name" id="name" />
+    </dd>
+  </div>
+  <div class="p-contact-item">
+    <dt class="p-contact-item__title"><label for="tel">お電話番号</label></dt>
+    <dd class="p-contact-item__input">
+      <input type="tel" name="" id="tel" />
+    </dd>
+  </div>
+  <div class="p-contact-item">
+    <dt class="p-contact-item__title">
+      <label for="email">メールアドレス</label>
+    </dt>
+    <dd class="p-contact-item__input">
+      <input type="text" name="email" id="email" />
+    </dd>
+  </div>
+
+  <div class="p-contact-item">
+    <dt class="p-contact-item__title">性別</dt>
+    <dd class="p-contact-item__input">
+      <label for="radio1" class="p-radio">
+        <input type="radio" name="radio" id="radio1" class="p-radio__input" />
+        <span class="p-radio__icon"></span>
+        <span class="p-radio__text">男性</span>
+      </label>
+      <label for="radio2" class="p-radio">
+        <input type="radio" name="radio" id="radio2" class="p-radio__input" />
+        <span class="p-radio__icon"></span>
+        <span class="p-radio__text">女性</span>
+      </label>
+      <label for="radio3" class="p-radio">
+        <input type="radio" name="radio" id="radio3" class="p-radio__input" />
+        <span class="p-radio__icon"></span>
+        <span class="p-radio__text">未回答</span>
+      </label>
+    </dd>
+  </div>
+
+  <div class="p-contact-item">
+    <dt class="p-contact-item__title">興味のある言語</dt>
+    <dd class="p-contact-item__input">
+      <label for="html-css" class="p-check-box">
+        <input type="checkbox" name="" id="html-css" class="p-check-box__input" />
+        <span class="p-check-box__icon"></span>
+        <span class="p-check-box__text">HTML・CSS</span>
+      </label>
+      <label for="javaScript" class="p-check-box">
+        <input type="checkbox" name="" id="javaScript" class="p-check-box__input" />
+        <span class="p-check-box__icon"></span>
+        <span class="p-check-box__text">JavaScript</span>
+      </label>
+      <label for="php" class="p-check-box">
+        <input type="checkbox" name="" id="php" class="p-check-box__input" />
+        <span class="p-check-box__icon"></span>
+        <span class="p-check-box__text">PHP</span>
+      </label>
+      <label for="python" class="p-check-box">
+        <input type="checkbox" name="" id="python" class="p-check-box__input" />
+        <span class="p-check-box__icon"></span>
+        <span class="p-check-box__text">Python</span>
+      </label>
+    </dd>
+  </div>
+
+  <div class="p-contact-item">
+    <dt class="p-contact-item__title">
+      <label for="textarea">お問い合わせ内容</label>
+    </dt>
+    <dd class="p-contact-item__input">
+      <textarea name="" id="textarea"></textarea>
+    </dd>
+  </div>
+  <button type="button">入力内容を確認</button>
+</body>
+
+</html>
